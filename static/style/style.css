@@ -94,7 +94,8 @@ a {
 }
 
 h2 {
-	font: bold 150% Arial, sans-serif;
+	font: normal 150% Arial, sans-serif;
+	color:#3090C7;
 }
 
 .magic {
