@@ -24,10 +24,10 @@
 <!-- Navigation -->
 <div class="nav page">
   <ul>
-    <li><a href="index.html" id="active">About</a></li>
+    <li><a href="index.html">About</a></li>
     <li><a href="python.html">Python</a></li>
     <li><a href="latex.html">LaTeX</a></li>
-    <li><a href="git.html">Git</a></li>
+    <li><a href="git.html" id="active">Git</a></li>
 </ul>
 </div>
 
@@ -37,19 +37,34 @@
 <div class="main-content">
 <div class="page">
 
-<img src="static/img/muon.jpg" class="imgright">
+<h2>Introduction to Git</h2>
 
-<h2>Mission</h2>
+Git is a "distributed version-control system for tracking changes in any set of files." We'll discuss what this means in a bit, but for now, it is important to understand that Git and GitHub are very powerful tools to keep track of your code and to share your code with with others. If you ever need to deal with code in research, you'll likely also encounter Git!
 
-The Undergraduate Labs at Berkeley are founded on the principle that undergraduate research should be accessible to all students. In particular, we recognize that there are significant barriers to entry for students traditionally underrepresented in academia. Our student-led research training organization helps student pursue research through a series of skills-building workshops combined with hands-on experience. For more information, please visit our <a href="https://ulab.berkeley.edu/labs/physics">main site.</a>
+<br><br><br>
 
-<br><br>
+<h2>Setup</h2>
 
-While space in our program is often limited, ULAB has a number of curriculum resources on topics such as Python, LaTeX, statistics, etc. that will appeal to a wide range of audiences---from beginners to the more experienced. <element style="color:#736AFF">Thus, we hope that this website will serve as a useful reference for all undergraduates to learn and sharpen their research skills!</element>
+<p>
+<b>Installing Git: </b>to check if you have Git installed, open the terminal/command line interface and run the command <code>git --version</code>. If you encounter an error that the git command can not be found, follow the <a href="https://git-scm.com/book/en/v2/Getting-Started-Installing-Git">instructions</a> to install Git. 
+</p>
 
-<br><br>
+<p>
+<b>First time setup: </b>if this is the first time you're Git on this machine, you must first set your name and address. Run the commands:
+<br>
+<code>git config --global user.name "YOUR NAME"</code>
+<br>
+<code>git config --global user.email YOUR_EMAIL</code>
+</p>
 
-The lectures, exercises, and guides posted on this site were created by the many members of the ULAB curriculum development team as well as our collaborators at the <a href="https://guides.lib.berkeley.edu/eps_eguide">Engineering and Physical Sicences Libraries</a> at Berkeley and the <a href="https://sps.berkeley.edu/">Society of Physics Students</a>. Thank you to everyone that has contributed!
+<p>
+  You're all set! You can check your Git configuratin with the command <code>git config --list</code>.
+</p>
+
+<br><br><br>
+
+<h2>[SP21] Git Lecture</h2>
+
 
 </div>
 </div>
